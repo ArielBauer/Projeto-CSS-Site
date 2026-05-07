@@ -1,0 +1,21 @@
+.PINK{
+    background-color: pink;
+}
+
+.LGREEN{
+    background-color: #ceffe8;
+    border: 2px solid #686868;
+}
+
+.GREEN{
+    background-color: #ceffe85b;
+}
+
+
+.BLACK{
+    background-color: #252525;
+}
+
+.qr-box {
+    aspect-ratio: 1 / 1;
+}
