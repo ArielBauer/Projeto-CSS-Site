@@ -12,6 +12,7 @@
 
     <div class="d-flex vh-100">
 
+        <!-- Navbar -->
         <div class="d-flex flex-column align-items-center py-3 A" style="width: 60px;">
             <ul class="nav nav-pills flex-column align-items-center gap-2 h4">
                 <li class="nav-item">
@@ -60,11 +61,11 @@
             </ul>
         </div>
 
-
+        <!-- Conversas -->
         <div class="d-flex flex-column B" style="width: 30%;">
 
             <div class="p-3 d-flex justify-content-between align-items-center">
-                <h5 class="m-0">WhatsApp</h5>
+                <h5 class="m-0" onclick="window.location.href='index.html'" style="cursor: pointer;">WhatsApp</h5>
                 <div class="d-flex gap-3">
                     <a href="#" class="text-black"><i class="bi bi-plus-square"></i></a>
                     <a href="#" class="text-black"><i class="bi bi-three-dots-vertical"></i></a>
@@ -96,7 +97,7 @@
                 </button>
             </div>
 
-            <!-- LISTA DE CONVERSAS (scrollável) -->
+            <!-- LISTA DE CONVERSAS -->
             <div class="overflow-y-auto flex-grow-1">
                 <!-- ARQUIVADAS -->
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -104,13 +105,15 @@
                     <span>Arquivadas</span>
                 </a>
 
-                
-                <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
+
+                <a href="#" onclick="abrirConversa()" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
                     <div class="rounded-circle C flex-shrink-0" style="width: 48px; height: 48px;"></div>
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -118,7 +121,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -126,7 +131,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -134,7 +141,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -142,7 +151,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -150,7 +161,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -158,7 +171,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -166,7 +181,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -174,7 +191,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -182,7 +201,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -190,7 +211,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
                 <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
@@ -198,23 +221,9 @@
                     <div class="flex-grow-1 overflow-hidden">
                         <div class="d-flex justify-content-between">
                             <span class="fw-semibold">Nome do contato</span>
+                            <small class="text-muted">12:00</small>
                         </div>
-                    </div>
-                </a>
-                <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
-                    <div class="rounded-circle C flex-shrink-0" style="width: 48px; height: 48px;"></div>
-                    <div class="flex-grow-1 overflow-hidden">
-                        <div class="d-flex justify-content-between">
-                            <span class="fw-semibold">Nome do contato</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="#" class="d-flex align-items-center gap-3 px-3 py-2 text-black text-decoration-none border-bottom">
-                    <div class="rounded-circle C flex-shrink-0" style="width: 48px; height: 48px;"></div>
-                    <div class="flex-grow-1 overflow-hidden">
-                        <div class="d-flex justify-content-between">
-                            <span class="fw-semibold">Nome do contato</span>
-                        </div>
+                        <p class="m-0 text-muted text-truncate small">Última mensagem enviada aqui...</p>
                     </div>
                 </a>
             </div>
@@ -222,12 +231,229 @@
         </div>
 
 
-        <div class="flex-grow-1 C">
+        <!-- Painel defaut -->
+        <div id="painelDefault" class="flex-grow-1 d-flex flex-column justify-content-center align-items-center gap-4 C">
+
+            <!-- CARD PRINCIPAL -->
+            <div class="text-center p-5 rounded-4 D" style="max-width: 360px;">
+                <i class="bi bi-laptop fs-1 mb-4 d-block"></i>
+                <h5 class="fw-bold">Baixar o WhatsApp</h5>
+                <p class="text-muted small">Tenha acesso a recursos extras, como ligações de voz e de vídeo, compartilhamento de tela e muito mais.</p>
+                <button class="btn btn-success rounded-pill px-4">Baixar</button>
+            </div>
+
+            <!-- ATALHOS -->
+            <div class="d-flex gap-3">
+
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <a href="#" class="p-4 rounded-3 text-black text-decoration-none D">
+                        <i class="bi bi-file-earmark-text fs-4"></i>
+                    </a>
+                    <small>Enviar documento</small>
+                </div>
+
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <a href="#" class="p-4 rounded-3 text-black text-decoration-none D">
+                        <i class="bi bi-person-plus fs-4"></i>
+                    </a>
+                    <small>Adicionar contato</small>
+                </div>
+
+                <div class="d-flex flex-column align-items-center gap-2">
+                    <a href="#" class="p-4 rounded-3 text-black text-decoration-none D">
+                        <i class="bi bi-hurricane fs-4"></i>
+                    </a>
+                    <small>Perguntar à Meta AI</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Painel de conversa -->
+        <div id="painelConversa" class="flex-grow-1 d-flex flex-column C d-none">
+            <div class="d-flex justify-content-between align-items-center px-3 py-2 border-bottom">
+                <div class="d-flex align-items-center gap-3">
+                    <div class="rounded-circle D flex-shrink-0" style="width: 40px; height: 40px;"></div>
+                    <div>
+                        <div class="fw-semibold">Nome do contato</div>
+                        <small class="text-muted">dados da conversa</small>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <button class="btn btn-outline-secondary btn-sm rounded-pill d-flex align-items-center gap-2">
+                        <i class="bi bi-camera-video"></i> Ligar
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <a href="#" class="text-black"><i class="bi bi-search fs-5"></i></a>
+                    <a href="#" class="text-black"><i class="bi bi-three-dots-vertical fs-5"></i></a>
+                </div>
+            </div>
+
+            <!-- ÁREA DE MENSAGENS -->
+            <div class="flex-grow-1 overflow-y-auto px-4 py-3 d-flex flex-column gap-2">
+
+                <!-- SEPARADOR DE DATA -->
+                <div class="text-center my-2">
+                    <span class="px-3 py-1 rounded-pill small D">Hoje</span>
+                </div>
+
+                <!-- ENVIADAS -->
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:57 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:57</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <div class="px-3 py-2 rounded-3 E d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58 <i class="bi bi-check2-all"></i></small>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start">
+                    <div class="px-3 py-2 rounded-3 D d-flex align-items-end gap-2" style="max-width: 65%;">
+                        <span>Mensagem exemplo</span>
+                        <small class="text-muted text-nowrap">18:58</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- INPUT DE MENSAGEM -->
+            <div class="d-flex align-items-center gap-3 px-3 py-2 border-top">
+                <a href="#" class="text-black"><i class="bi bi-plus-lg fs-5"></i></a>
+                <a href="#" class="text-black"><i class="bi bi-emoji-smile fs-5"></i></a>
+                <input type="text" class="form-control rounded-pill" placeholder="Digite uma mensagem">
+                <a href="#" class="text-black"><i class="bi bi-mic fs-5"></i></a>
+            </div>
 
         </div>
+
 
     </div>
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    let Pdefaut = true
+    function abrirConversa() {
+        if (Pdefaut == true) {
+            document.getElementById('painelDefault').classList.add('d-none');
+            document.getElementById('painelConversa').classList.remove('d-none');
+            Pdefaut=false
+        } else {
+            document.getElementById('painelDefault').classList.remove('d-none');
+            document.getElementById('painelConversa').classList.add('d-none');
+            Pdefaut=true
+        };
+    };
+</script>
 </body>
 </html>
